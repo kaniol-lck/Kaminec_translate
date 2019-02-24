@@ -4,44 +4,52 @@
 <context>
     <name>AccountDialog</name>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.ui" line="31"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.ui" line="31"/>
         <source>New Account</source>
         <translation>新建账号</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.ui" line="59"/>
         <source>Online</source>
-        <translation>在线模式</translation>
+        <translation type="vanished">在线模式</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.ui" line="69"/>
         <source>Offline</source>
-        <translation>离线模式</translation>
+        <translation type="vanished">离线模式</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.ui" line="95"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.ui" line="59"/>
+        <source>Certified</source>
+        <translation>已认证</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.ui" line="69"/>
+        <source>Uncertified</source>
+        <translation>未认证</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.ui" line="95"/>
         <source>Email:</source>
         <translation>邮箱：</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.ui" line="108"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.ui" line="108"/>
         <source>Password:</source>
         <translation>密码：</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.ui" line="123"/>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="95"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.ui" line="123"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="94"/>
         <source>Show Password</source>
         <translation>显示密码</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.ui" line="147"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.ui" line="147"/>
         <source>Playername:</source>
         <translation>用户名：</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.ui" line="189"/>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="117"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.ui" line="189"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="116"/>
         <source>Log in</source>
         <translation>登入</translation>
     </message>
@@ -74,14 +82,14 @@
         <translation type="vanished">登入（&amp;L）</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="15"/>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="16"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="14"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="15"/>
         <source>Create Account</source>
         <translation>新建账号</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="26"/>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="27"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="25"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="26"/>
         <source>Edit Account</source>
         <translation>编辑账号</translation>
     </message>
@@ -90,29 +98,29 @@
         <translation type="vanished">登出（&amp;L）</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="41"/>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="149"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="40"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="148"/>
         <source>Log out</source>
         <translation>登出</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="62"/>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="79"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="61"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="78"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="62"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="61"/>
         <source>The playername cannot be empty.</source>
         <translation>用户名不能为空。</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="79"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="78"/>
         <source>The account already exists.</source>
         <translation>该账号已经存在。</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/accountdialog.cpp" line="92"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="91"/>
         <source>Hide Password</source>
         <translation>隐藏密码</translation>
     </message>
@@ -129,26 +137,31 @@
     <name>AccountPool</name>
     <message>
         <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="18"/>
+        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="68"/>
         <source>Playername</source>
         <translation>用户名</translation>
     </message>
     <message>
         <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="19"/>
+        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="69"/>
         <source>Mode</source>
         <translation>游戏模式</translation>
     </message>
     <message>
         <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="20"/>
+        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="70"/>
         <source>Email</source>
         <translation>邮箱</translation>
     </message>
     <message>
         <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="21"/>
+        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="71"/>
         <source>Created</source>
         <translation>创建时间</translation>
     </message>
     <message>
         <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="22"/>
+        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="72"/>
         <source>lastUsed</source>
         <translation>最后使用时间</translation>
     </message>
@@ -439,19 +452,39 @@
         <translation type="vanished">日志</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/laminectab.ui" line="23"/>
+        <source>Logger</source>
+        <translation type="vanished">日志</translation>
+    </message>
+    <message>
+        <source>Log File Limit:</source>
+        <translation type="vanished">日志文件限制：</translation>
+    </message>
+    <message>
+        <source>No Limit</source>
+        <translation type="vanished">没有限制</translation>
+    </message>
+</context>
+<context>
+    <name>LauncherTab</name>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/launchertab.ui" line="23"/>
         <source>Logger</source>
         <translation>日志</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/laminectab.ui" line="31"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/launchertab.ui" line="31"/>
         <source>Log File Limit:</source>
         <translation>日志文件限制：</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/laminectab.ui" line="41"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/launchertab.ui" line="41"/>
         <source>No Limit</source>
         <translation>没有限制</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/launchertab.ui" line="62"/>
+        <source>Language:</source>
+        <translation>语言：</translation>
     </message>
 </context>
 <context>
@@ -752,8 +785,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../../Kaminec/UI/preferences.cpp" line="27"/>
+        <source>Launcher</source>
+        <translation>启动器</translation>
+    </message>
+    <message>
         <source>LAminec</source>
-        <translation>LAminec</translation>
+        <translation type="vanished">LAminec</translation>
     </message>
     <message>
         <location filename="../../Kaminec/UI/preferences.cpp" line="28"/>
@@ -764,12 +801,12 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ProfileDialog</name>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.ui" line="33"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.ui" line="33"/>
         <source>New Profile</source>
         <translation>新建配置</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.ui" line="73"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.ui" line="73"/>
         <source>Exsited Version:</source>
         <translation>已存在的版本：</translation>
     </message>
@@ -778,56 +815,56 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">名称：</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.ui" line="95"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.ui" line="95"/>
         <source>Name:</source>
         <translation>名称：</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.ui" line="120"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.ui" line="120"/>
         <source>Game Directory:</source>
         <translation>游戏路径：</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.ui" line="154"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.ui" line="154"/>
         <source>Check</source>
         <translation>检查</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.ui" line="174"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.ui" line="174"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.cpp" line="14"/>
-        <location filename="../../Kaminec/UI/profiledialog.cpp" line="15"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.cpp" line="14"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.cpp" line="15"/>
         <source>Create Profile</source>
         <translation>创建配置</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.cpp" line="25"/>
-        <location filename="../../Kaminec/UI/profiledialog.cpp" line="26"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.cpp" line="25"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.cpp" line="26"/>
         <source>Edit Profile</source>
         <translation>编辑配置</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.cpp" line="46"/>
-        <location filename="../../Kaminec/UI/profiledialog.cpp" line="50"/>
-        <location filename="../../Kaminec/UI/profiledialog.cpp" line="58"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.cpp" line="46"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.cpp" line="50"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.cpp" line="58"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.cpp" line="46"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.cpp" line="46"/>
         <source>The profile name cannot be empty.</source>
         <translation>配置名不能为空。</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.cpp" line="50"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.cpp" line="50"/>
         <source>The game directory cannot be empty.</source>
         <translation>游戏路径不能为空。</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/profiledialog.cpp" line="58"/>
+        <location filename="../../Kaminec/UI/dialogs/profiledialog.cpp" line="58"/>
         <source>The profile already exists.</source>
         <translation>该配置已经存在。</translation>
     </message>
@@ -910,41 +947,41 @@ p, li { white-space: pre-wrap; }
         <translation type="vanished">启动(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="29"/>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="34"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="37"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="42"/>
         <source>Launch Error</source>
         <translation>启动错误</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="29"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="37"/>
         <source>Please create your account first.</source>
         <translation>请先创建你的账号。</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="34"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="42"/>
         <source>Please create your profile first.</source>
         <translation>请先创建你的配置。</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="41"/>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="52"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="49"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="60"/>
         <source>Gaming...</source>
         <translation>游戏中...</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="49"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="57"/>
         <source>Launching Java...</source>
         <translation>启动Java中...</translation>
     </message>
     <message>
         <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.ui" line="68"/>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="55"/>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="62"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="63"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="70"/>
         <source>Launch</source>
         <translation>启动</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="68"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="76"/>
         <source>error</source>
         <translation>错误</translation>
     </message>
@@ -956,22 +993,21 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">窗体</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/themetab.ui" line="22"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/themetab.ui" line="39"/>
         <source>Choose Font...</source>
         <translation>选择字体...</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/themetab.ui" line="29"/>
         <source>Language:</source>
-        <translation>语言：</translation>
+        <translation type="vanished">语言：</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/themetab.ui" line="53"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/themetab.ui" line="29"/>
         <source>Font:</source>
         <translation>字体：</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/themetab.cpp" line="50"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/themetab.cpp" line="30"/>
         <source>Choose font for Launcher...</source>
         <translation>为启动器选择字体...</translation>
     </message>
