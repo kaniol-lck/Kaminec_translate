@@ -38,7 +38,7 @@
     </message>
     <message>
         <location filename="../../Kaminec/UI/dialogs/accountdialog.ui" line="123"/>
-        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="94"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="101"/>
         <source>Show Password</source>
         <translation>Show Password</translation>
     </message>
@@ -49,7 +49,7 @@
     </message>
     <message>
         <location filename="../../Kaminec/UI/dialogs/accountdialog.ui" line="189"/>
-        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="116"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="119"/>
         <source>Log in</source>
         <translation>Log in</translation>
     </message>
@@ -60,35 +60,35 @@
         <translation>Create Account</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="25"/>
-        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="26"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="32"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="33"/>
         <source>Edit Account</source>
         <translation>Edit Account</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="40"/>
-        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="148"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="47"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="139"/>
         <source>Log out</source>
         <translation>Log out</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="61"/>
-        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="78"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="68"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="85"/>
         <source>Warning</source>
         <translation>Warning</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="61"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="68"/>
         <source>The playername cannot be empty.</source>
         <translation>The playername cannot be empty.</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="78"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="85"/>
         <source>The account already exists.</source>
         <translation>The account already exists.</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="91"/>
+        <location filename="../../Kaminec/UI/dialogs/accountdialog.cpp" line="98"/>
         <source>Hide Password</source>
         <translation>Hide Password</translation>
     </message>
@@ -97,31 +97,31 @@
     <name>AccountPool</name>
     <message>
         <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="18"/>
-        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="68"/>
+        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="72"/>
         <source>Playername</source>
         <translation>Playername</translation>
     </message>
     <message>
         <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="19"/>
-        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="69"/>
+        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="73"/>
         <source>Mode</source>
         <translation>Mode</translation>
     </message>
     <message>
         <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="20"/>
-        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="70"/>
+        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="74"/>
         <source>Email</source>
         <translation>Email</translation>
     </message>
     <message>
         <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="21"/>
-        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="71"/>
+        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="75"/>
         <source>Created</source>
         <translation>Created</translation>
     </message>
     <message>
         <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="22"/>
-        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="72"/>
+        <location filename="../../Kaminec/LAminec/AccountPool.cpp" line="76"/>
         <source>lastUsed</source>
         <translation>lastUsed</translation>
     </message>
@@ -155,6 +155,14 @@
         <location filename="../../Kaminec/UI/downloadprogressdialog.ui" line="47"/>
         <source>0/0</source>
         <translation>0/0</translation>
+    </message>
+</context>
+<context>
+    <name>GameOutputTab</name>
+    <message>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/gameoutputtab.ui" line="14"/>
+        <source>Form</source>
+        <translation>Form</translation>
     </message>
 </context>
 <context>
@@ -291,22 +299,29 @@
         <translation>&amp;Download Progress</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="38"/>
-        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="67"/>
+        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="39"/>
+        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="81"/>
         <source>Start Game</source>
         <translation>Start Game</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="39"/>
-        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="68"/>
+        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="40"/>
+        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="82"/>
         <source>Account</source>
         <translation>Account</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="40"/>
-        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="69"/>
+        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="41"/>
+        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="83"/>
         <source>Profile</source>
         <translation>Profile</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="42"/>
+        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="48"/>
+        <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="84"/>
+        <source>Game Output</source>
+        <translation>Game Output</translation>
     </message>
 </context>
 <context>
@@ -680,40 +695,38 @@ p, li { white-space: pre-wrap; }
     <name>StartGameTab</name>
     <message>
         <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.ui" line="68"/>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="63"/>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="70"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="25"/>
         <source>Launch</source>
         <translation>Launch</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="37"/>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="42"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="57"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="62"/>
         <source>Launch Error</source>
         <translation>Launch Error</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="37"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="57"/>
         <source>Please create your account first.</source>
         <translation>Please create your account first.</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="42"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="62"/>
         <source>Please create your profile first.</source>
         <translation>Please create your profile first.</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="49"/>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="60"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="22"/>
         <source>Gaming...</source>
         <translation>Gaming...</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="57"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="19"/>
         <source>Launching Java...</source>
         <translation>Launching Java...</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="76"/>
+        <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="36"/>
         <source>error</source>
         <translation>error</translation>
     </message>
@@ -721,9 +734,19 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ThemeTab</name>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/themetab.ui" line="39"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/themetab.ui" line="22"/>
         <source>Choose Font...</source>
         <translation>Choose Font...</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/themetab.ui" line="63"/>
+        <source>Background:</source>
+        <translation>Background:</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/themetab.ui" line="73"/>
+        <source>...</source>
+        <translation>...</translation>
     </message>
     <message>
         <source>Language:</source>
@@ -735,9 +758,14 @@ p, li { white-space: pre-wrap; }
         <translation>Font:</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/themetab.cpp" line="30"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/themetab.cpp" line="33"/>
         <source>Choose font for Launcher...</source>
         <translation>Choose font for Launcher...</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/themetab.cpp" line="40"/>
+        <source>Choose background for Launcher...</source>
+        <translation>Choose background for Launcher...</translation>
     </message>
 </context>
 </TS>
