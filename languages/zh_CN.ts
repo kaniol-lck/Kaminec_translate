@@ -491,22 +491,36 @@
         <translation>自定义</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="114"/>
-        <source>Custom Java Arguments:</source>
-        <translation>自定义Java参数：</translation>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="93"/>
+        <source>Custom JVM Arguments</source>
+        <translation>自定义JVM参数</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="136"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="107"/>
+        <source>Remove</source>
+        <translation>移除</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="114"/>
+        <source>Add</source>
+        <translation>新建</translation>
+    </message>
+    <message>
+        <source>Custom Java Arguments:</source>
+        <translation type="vanished">自定义Java参数：</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="165"/>
         <source>Memory Settings</source>
         <translation>内存设置</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="144"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="173"/>
         <source>Minimum Memory Allocate:</source>
         <translation>最小内存分配：</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="171"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="200"/>
         <source>Maximum Memory Allocate:</source>
         <translation>最大内存分配：</translation>
     </message>
@@ -527,9 +541,19 @@
         <translation type="vanished">最大内存分配：</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/javatab.cpp" line="35"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.cpp" line="46"/>
         <source>Choose javaw,exe...</source>
         <translation>选择javaw.exe...</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.cpp" line="54"/>
+        <source>Custom Argument</source>
+        <translation>自定义参数</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.cpp" line="54"/>
+        <source>Input your custom Argument here:</source>
+        <translation>在此输入你的参数：</translation>
     </message>
 </context>
 <context>
@@ -651,6 +675,11 @@
         <source>Language:</source>
         <translation>语言：</translation>
     </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/launchertab.ui" line="81"/>
+        <source>Use BMCLAPI to download game</source>
+        <translation>使用BMCLAPI下载游戏</translation>
+    </message>
 </context>
 <context>
     <name>PathTab</name>
@@ -678,7 +707,7 @@
     </message>
     <message>
         <location filename="../../Kaminec/UI/preferences_tabs/pathtab.ui" line="35"/>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="202"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="203"/>
         <source>More</source>
         <translation>更多</translation>
     </message>
@@ -849,59 +878,63 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;启动器路径：&amp;lt;launcher&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="67"/>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="101"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="102"/>
         <source>Please choose the version directory</source>
         <translation>请选择版本文件夹路径</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="76"/>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="89"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="77"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="90"/>
         <source>Please choose the upper directory,we will automaticly create &quot;.minecraft&quot; folder</source>
         <translation>请选择上级路径，我们会自动创建.minecraft文件夹</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="110"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="69"/>
+        <source>Choose javaw,exe...</source>
+        <translation>选择javaw.exe...</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="111"/>
         <source>Please choose the libraries directory</source>
         <translation>请选择库文件路径</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="119"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="120"/>
         <source>Please choose the natives directory</source>
         <translation>请选择Natives解压路径</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="128"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="129"/>
         <source>Please choose the assets directory</source>
         <translation>请选择资源文件路径</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="137"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="138"/>
         <source>Please choose the asset indexes directory</source>
         <translation>请选择资源索引文件路径</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="146"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="147"/>
         <source>Please choose the asset objects directory</source>
         <translation>请选择资源文件路径</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="155"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="156"/>
         <source>Please choose the unused mods directory</source>
         <translation>请选择未使用Mod路径</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="164"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="165"/>
         <source>Please choose the saves backup directory</source>
         <translation>请选择存档备份路径</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="173"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="174"/>
         <source>Please choose the logger directory</source>
         <translation>请选择日志文件夹路径</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="202"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="203"/>
         <source>Fold</source>
         <translation>折叠</translation>
     </message>

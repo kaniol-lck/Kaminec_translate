@@ -149,12 +149,12 @@
     <message>
         <location filename="../../Kaminec/download/AssetObjectsDownload.cpp" line="19"/>
         <source>Game Asset File</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Asset File</translation>
     </message>
     <message>
         <location filename="../../Kaminec/download/AssetObjectsDownload.cpp" line="31"/>
         <source>Asset Objects Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Asset Objects Download</translation>
     </message>
 </context>
 <context>
@@ -175,35 +175,35 @@
     <message>
         <location filename="../../Kaminec/download/Downloader.cpp" line="29"/>
         <source>File Name</source>
-        <translation type="unfinished"></translation>
+        <translation>File Name</translation>
     </message>
     <message>
         <location filename="../../Kaminec/download/Downloader.cpp" line="30"/>
         <source>File Type</source>
-        <translation type="unfinished"></translation>
+        <translation>File Type</translation>
     </message>
     <message>
         <location filename="../../Kaminec/download/Downloader.cpp" line="31"/>
         <source>Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Status</translation>
     </message>
     <message>
         <location filename="../../Kaminec/download/Downloader.cpp" line="34"/>
         <location filename="../../Kaminec/download/Downloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Downloading...</translation>
     </message>
     <message>
         <location filename="../../Kaminec/download/Downloader.cpp" line="40"/>
         <location filename="../../Kaminec/download/Downloader.cpp" line="44"/>
         <source>Finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Finished</translation>
     </message>
     <message>
         <location filename="../../Kaminec/download/Downloader.cpp" line="55"/>
         <location filename="../../Kaminec/download/Downloader.cpp" line="84"/>
         <source>Waiting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Waiting...</translation>
     </message>
 </context>
 <context>
@@ -211,27 +211,27 @@
     <message>
         <location filename="../../Kaminec/download/GameDownload.cpp" line="17"/>
         <source>Version Id</source>
-        <translation type="unfinished"></translation>
+        <translation>Version Id</translation>
     </message>
     <message>
         <location filename="../../Kaminec/download/GameDownload.cpp" line="18"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Type</translation>
     </message>
     <message>
         <location filename="../../Kaminec/download/GameDownload.cpp" line="19"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Time</translation>
     </message>
     <message>
         <location filename="../../Kaminec/download/GameDownload.cpp" line="20"/>
         <source>Release Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Release Time</translation>
     </message>
     <message>
         <location filename="../../Kaminec/download/GameDownload.cpp" line="21"/>
         <source>Url</source>
-        <translation type="unfinished"></translation>
+        <translation>Url</translation>
     </message>
 </context>
 <context>
@@ -239,27 +239,27 @@
     <message>
         <location filename="../../Kaminec/UI/dialogs/gamedownloaddialog.ui" line="14"/>
         <source>Game Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Download</translation>
     </message>
     <message>
         <location filename="../../Kaminec/UI/dialogs/gamedownloaddialog.ui" line="50"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Download</translation>
     </message>
     <message>
         <location filename="../../Kaminec/UI/dialogs/gamedownloaddialog.ui" line="86"/>
         <source>Enable Snapshot</source>
-        <translation type="unfinished"></translation>
+        <translation>Enable Snapshot</translation>
     </message>
     <message>
         <location filename="../../Kaminec/UI/dialogs/gamedownloaddialog.ui" line="93"/>
         <source>Enable Old Beta</source>
-        <translation type="unfinished"></translation>
+        <translation>Enable Old Beta</translation>
     </message>
     <message>
         <location filename="../../Kaminec/UI/dialogs/gamedownloaddialog.ui" line="100"/>
         <source>Enable Old Alpha</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -267,7 +267,7 @@
     <message>
         <location filename="../../Kaminec/download/GameLibrariesDownload.cpp" line="19"/>
         <source>Game Library File</source>
-        <translation type="unfinished"></translation>
+        <translation>Game Library File</translation>
     </message>
 </context>
 <context>
@@ -359,29 +359,53 @@
         <translation>Custom</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="114"/>
-        <source>Custom Java Arguments:</source>
-        <translation>Custom Java Arguments:</translation>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="93"/>
+        <source>Custom JVM Arguments</source>
+        <translation>Custom JVM Arguments</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="136"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="107"/>
+        <source>Remove</source>
+        <translation>Remove</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="114"/>
+        <source>Add</source>
+        <translation>Add</translation>
+    </message>
+    <message>
+        <source>Custom Java Arguments:</source>
+        <translation type="vanished">Custom Java Arguments:</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="165"/>
         <source>Memory Settings</source>
         <translation>Memory Settings</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="144"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="173"/>
         <source>Minimum Memory Allocate:</source>
         <translation>Minimum Memory Allocate:</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="171"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.ui" line="200"/>
         <source>Maximum Memory Allocate:</source>
         <translation>Maximum Memory Allocate:</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/javatab.cpp" line="35"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.cpp" line="46"/>
         <source>Choose javaw,exe...</source>
         <translation>Choose javaw,exe...</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.cpp" line="54"/>
+        <source>Custom Argument</source>
+        <translation>Custom Argument</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/javatab.cpp" line="54"/>
+        <source>Input your custom Argument here:</source>
+        <translation>Input your custom Argument here:</translation>
     </message>
 </context>
 <context>
@@ -399,7 +423,7 @@
     <message>
         <location filename="../../Kaminec/UI/kamineclauncher.ui" line="131"/>
         <source>&amp;Download</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Download</translation>
     </message>
     <message>
         <location filename="../../Kaminec/UI/kamineclauncher.ui" line="183"/>
@@ -419,7 +443,7 @@
     <message>
         <location filename="../../Kaminec/UI/kamineclauncher.ui" line="196"/>
         <source>Download Game</source>
-        <translation type="unfinished"></translation>
+        <translation>Download Game</translation>
     </message>
     <message>
         <location filename="../../Kaminec/UI/kamineclauncher.cpp" line="48"/>
@@ -483,6 +507,11 @@
         <source>Language:</source>
         <translation>Language:</translation>
     </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/launchertab.ui" line="81"/>
+        <source>Use BMCLAPI to download game</source>
+        <translation>Use BMCLAPI to download game</translation>
+    </message>
 </context>
 <context>
     <name>PathTab</name>
@@ -498,7 +527,7 @@
     </message>
     <message>
         <location filename="../../Kaminec/UI/preferences_tabs/pathtab.ui" line="35"/>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="202"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="203"/>
         <source>More</source>
         <translation>More</translation>
     </message>
@@ -601,59 +630,63 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Launcher Path:&amp;lt;launcher&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="67"/>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="101"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="102"/>
         <source>Please choose the version directory</source>
         <translation>Please choose the version directory</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="76"/>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="89"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="77"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="90"/>
         <source>Please choose the upper directory,we will automaticly create &quot;.minecraft&quot; folder</source>
         <translation>Please choose the upper directory,we will automaticly create &quot;.minecraft&quot; folder</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="110"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="69"/>
+        <source>Choose javaw,exe...</source>
+        <translation>Choose javaw,exe...</translation>
+    </message>
+    <message>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="111"/>
         <source>Please choose the libraries directory</source>
         <translation>Please choose the libraries directory</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="119"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="120"/>
         <source>Please choose the natives directory</source>
         <translation>Please choose the natives directory</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="128"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="129"/>
         <source>Please choose the assets directory</source>
         <translation>Please choose the assets directory</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="137"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="138"/>
         <source>Please choose the asset indexes directory</source>
         <translation>Please choose the asset indexes directory</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="146"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="147"/>
         <source>Please choose the asset objects directory</source>
         <translation>Please choose the asset objects directory</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="155"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="156"/>
         <source>Please choose the unused mods directory</source>
         <translation>Please choose the unused mods directory</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="164"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="165"/>
         <source>Please choose the saves backup directory</source>
         <translation>Please choose the saves backup directory</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="173"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="174"/>
         <source>Please choose the logger directory</source>
         <translation>Please choose the logger directory</translation>
     </message>
     <message>
-        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="202"/>
+        <location filename="../../Kaminec/UI/preferences_tabs/pathtab.cpp" line="203"/>
         <source>Fold</source>
         <translation>Fold</translation>
     </message>
@@ -824,7 +857,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="59"/>
         <source>Preparing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Preparing...</translation>
     </message>
     <message>
         <location filename="../../Kaminec/UI/kamineclauncher_tabs/startgametab.cpp" line="63"/>
